@@ -15,32 +15,23 @@ body {
     font-size:2em;
 }
 
-.body-container{
+.container{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     
 }
 
-.body-container > div{
+.container > div{
     flex-basis:70%;
     text-align: center;
-    margin:5rem;
-    font-size:60px;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-content:center;
-    
-    gap: 0px;
-    background-color: #59505c;
-    padding:1em;
-    
+    margin:2rem;
+    font-size:20px;
 }
 
 .header {
+    display:flex;
+    justify-content:flex-end;
     padding: 1.6em;
     text-align: center;
     
@@ -51,6 +42,11 @@ body {
     font-size: 1.6em;
   }
 
+.header > div{
+    font-size:20px;
+    padding:2%;
+    transform: translateX(-4rem);
+}
 
 .sidebar {
     background-color: #637198;
