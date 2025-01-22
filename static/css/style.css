@@ -1,0 +1,74 @@
+html, body {
+    min-height:100vh;
+    font-size:10px; /* sets the font to 10px and makes rem easy to use (divisible by 10)*/
+}
+
+body {
+    background-color: #fcf7e0;  
+   
+    font-family: "CrimsonText-Regular", Garamond;
+    margin:0;   
+}
+
+.accent {
+    color:#f53f44;
+    font-size:2em;
+}
+
+.body-container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.body-container > *{
+    flex-basis:30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    
+    gap: 0px;
+    background-color: #59505c;
+    padding:1em;
+    
+}
+
+.header {
+    padding: 1.6em;
+    text-align: center;
+    
+    background: #70977b;
+    /*background: #7e9485;
+    background: #42486b;*/ 
+    color: white;
+    font-size: 1.6em;
+  }
+
+
+.sidebar {
+    background-color: #637198;
+    background-color: #827ae7;
+    
+    position: absolute;
+
+    z-index: -1; /* goes behind other elements */
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 15%;
+}
+
+.sidebar > *{
+    background-color: #f53f44;
+    flex-direction: column-reverse;
+    bottom: 0;
+    left: 10%;
+    justify-content: space;
+
+}
+
+  
