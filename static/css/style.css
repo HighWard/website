@@ -17,12 +17,16 @@ body {
 
 .body-container{
     display:flex;
-    justify-content: center;
-    align-content: center;
+    flex-wrap:wrap;
+    justify-content:center;
+    
 }
 
-.body-container > *{
-    flex-basis:30px;
+.body-container > div{
+    flex-basis:70%;
+    text-align: center;
+    margin:5rem;
+    font-size:60px;
 }
 
 .container{
